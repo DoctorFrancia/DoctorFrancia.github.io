@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facebook Login JavaScript Example</title>
+<meta charset="UTF-8">
+</head>
+<body>
+  <div id="fb-root"></div>
+
+        <script>
+        function myFacebookLogin() {
+  FB.login(function(){}, {scope: 'publish_actions'})
+};
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1094318777310653',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+
+    // ADD ADDITIONAL FACEBOOK CODE HERE
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+<button onclick="myFacebookLogin()">Login with Facebook</button>
+<fb:login-button onlogin="Log.info.bind('onlogin callback')">
+</body>
+</html>
