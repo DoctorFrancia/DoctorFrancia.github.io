@@ -1,41 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Frogger In Canvas</title>
-    <meta name="viewport" content="width=480, initial-scale=1.0">
-    <style>
-    @font-face {
-        font-family: 'Arcade Classic';
-        src: url('fonts/arcadeclassic.eot');
-        src: url('fonts/arcadeclassic.eot?#iefix') format('embedded-opentype'),
-             url('fonts/arcadeclassic.woff') format('woff'),
-             url('fonts/arcadeclassic.ttf') format('truetype'),
-             url('fonts/arcadeclassic.svg#arcadeclassic') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    .canvas {
-        position: absolute;
-        top: 0;
-        left: 25%;
-        border: 2px solid #000;
-        width: 480px;
-        height: 640px;
-    }
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/tether.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
+    <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-42119746-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+  </head>
+  <body>
+    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    </fb:login-button>
 
-    </style>
-</head>
-<body>
-    <canvas id="background-canvas" class="canvas" width="960" height="1280"></canvas>
-    <canvas id="canvas" class="canvas" width="960" height="1280"></canvas>
-    <script src="scripts/facebook.js"></script>
-    <script src="scripts/main.js"></script>
-      <div id="fb-root"></div>
+    <a class="btn btn-block btn-social btn-twitter">
+  <span class="fa fa-twitter"></span>
+  Sign in with Twitter
+</a>
 
+<a class="btn btn-social-icon btn-twitter">
+  <span class="fa fa-twitter"></span>
+</a>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/tether.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/facebook.js"></script>
 
-
-
-    <fb:login-button onlogin="Log.info.bind('onlogin callback')">
-</body>
 </html>
