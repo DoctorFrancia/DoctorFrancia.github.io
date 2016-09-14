@@ -64,14 +64,14 @@ firebase.initializeApp(config);
     // evento para el botón de login con facebook
     document.getElementById('loginfacebook').addEventListener('click', function() {
     // autentico con Facebook
-    authService.signInWithPopup(provider)
-            .then(function(result) {
-                //todo correcto
-                console.log('autenticado usuario ', result.user);
-            })
-            .catch(function(error) {
-                console.log('Detectado un error:', error);
-            });
+    var ref = new Firebase("https://tuapp.firebaseio.com/");
+ref.authWithOAuthPopup("facebook", function(error, authData) {
+  if (error) {
+    console.log("Fallo en el login!", error);
+  } else {
+    console.log("Autenticación correcta. User: ", authData);
+  }
+});
     })
 
     </script>
