@@ -37,6 +37,44 @@
 <a class="btn btn-social-icon btn-facebook">
   <span class="fa fa-facebook" scope="public_profile,email" onlogin="checkLoginState();"></span>
 </a>
+<button id="loginfacebook">Autenticar con Facebook</button>
+
+<script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+<script>
+// Initialize Firebase
+var config = {
+apiKey: "AIzaSyBZuCqf3zkeGJqjG-jRfw-XuoaI0Ld1mB8",
+authDomain: "basededatos-ce1e2.firebaseapp.com",
+databaseURL: "https://basededatos-ce1e2.firebaseio.com",
+storageBucket: "basededatos-ce1e2.appspot.com",
+messagingSenderId: "371839781564"
+};
+firebase.initializeApp(config);
+
+
+    // creo el provider de autenticación
+    var provider = new firebase.auth.FacebookAuthProvider();
+
+    // opcionalmente modifico el scope
+    provider.addScope('user_friends');
+
+    // accedo al servicio de autenticación
+    var authService = firebase.auth();
+
+    // evento para el botón de login con facebook
+    document.getElementById('loginfacebook').addEventListener('click', function() {
+    // autentico con Facebook
+    authService.signInWithPopup(provider)
+            .then(function(result) {
+                //todo correcto
+                console.log('autenticado usuario ', result.user);
+            })
+            .catch(function(error) {
+                console.log('Detectado un error:', error);
+            });
+    })
+
+    </script>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/tether.js"></script>
