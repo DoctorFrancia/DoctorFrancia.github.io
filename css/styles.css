@@ -1,5 +1,5 @@
 body {
-  background-image: url('/img/textil-background.jpg');
+  background-image: url('../img/textil-background.jpg');
   text-align: center;
 }
 
@@ -16,7 +16,7 @@ body {
   display: inline-block;
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 3em;
+  padding-left: 5%;
   padding-right: 4em;
 
 
