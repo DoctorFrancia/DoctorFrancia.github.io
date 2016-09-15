@@ -1,7 +1,24 @@
-(function() {
-  var cx = '015729348801311626101:bzq79czi9yo'; // Insert your own Custom Search Engine ID here
-  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-  gcse.src = (document.location.protocol == 'https' ? 'https:' : 'http:') +
-      '//www.google.com/cse/cse.js?cx=' + cx;
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-})();
+$(document).ready(function(){
+
+
+
+  $("#srchInput").keypress(function(e){
+    var keycode = (e.keyCode ? e.keyCode : e.which);
+    if(keycode== 13){
+
+      var str = $("#srchInput").val();
+
+      $(".row").children('div:contains('+ str + ')').show(300);
+      $(".row").children('div:not(:contains('+ str +'))').hide(300);
+    }
+  });
+
+  $(".row").children().click(function(){
+    console.log("sdasdsa");
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="popover"]').popover();
+  });
+
+
+
+});
