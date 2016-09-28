@@ -1,12 +1,17 @@
 ---
-layout:            post
-title:             "Pruebas"
-menutitle:         "Prueba"
-category:          Features
-author:            MartinCubilla
-tags:              Jekyll Content Demo
-published:         true
+title: Pruebas
+date: 2016-09-06 00:00:00 Z
+categories:
+- Features
+tags:
+- Jekyll
+- Content
+- Demo
+layout: post
+menutitle: Prueba
+author: MartinCubilla
 ---
+
 ![Tigre](http://i.imgur.com/kMVE3is.jpg)
 ## A New Post
 
