@@ -1,6 +1,6 @@
 ---
 title: jekyllDecent
-timezone: UTC
+timezone: America/Guyana
 collections:
   posts:
     title: Posts
@@ -12,7 +12,7 @@ subtitle: Example Blog
 description: This is the jekyllTheme example blog. It only exists to demonstrate how
   the theme looks and feels.
 keywords: demo theme example github jekyll features
-language: en
+language: es
 baseurl: 
 url: http://jwillmer.github.io/jekyllDecent
 permalink: "/blog/:categories/:title"
