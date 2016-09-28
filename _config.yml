@@ -13,7 +13,7 @@ description: This is the jekyllTheme example blog. It only exists to demonstrate
   the theme looks and feels.
 keywords: demo theme example github jekyll features
 language: en
-baseurl: ''
+baseurl: 
 url: http://jwillmer.github.io/jekyllDecent
 permalink: "/blog/:categories/:title"
 cover: "/assets/mountain-cover.jpg"
