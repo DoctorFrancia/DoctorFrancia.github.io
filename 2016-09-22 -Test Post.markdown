@@ -3,17 +3,10 @@ title: Pruebinha
 layout: page
 ---
 
-
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-![]({{site.baseurl}}/)![]({{site.baseurl}}/_posts/IMG-20160822-WA0004%20(1).jpg)![IMG-20160822-WA0004 (1).jpg]({{site.baseurl}}/_posts/IMG-20160822-WA0004 (1).jpg)
-sajdkasdji
-###
-
-aksjdkajdkas##
+![prueba.jpg](/uploads/prueba.jpg)
 
 askdlasdklas
-> We loved with a love that was more than love
 
+> We loved with a love that was more than love
+[Test](http://www.google.com)
 [Google](www.google.com)
