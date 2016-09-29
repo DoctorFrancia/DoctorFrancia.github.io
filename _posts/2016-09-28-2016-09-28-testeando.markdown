@@ -1,6 +1,6 @@
 ---
 title: Testeando
-date: 2016-09-28 20:18:00 Z
+date: 2016-09-28 16:18:00 -04:00
 layout: post
 ---
 
