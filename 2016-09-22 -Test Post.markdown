@@ -1,15 +1,9 @@
 ---
 title: Pruebinha
+layout: page
 ---
 
----
-layout:            post
-title:             "Test Post"
-menutitle:         "Prueba"
-category:          Features
-author:            MartinCubilla
-tags:              Jekyll Content Demo
----
+
 ## A New Post
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
