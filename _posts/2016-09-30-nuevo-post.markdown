@@ -1,5 +1,5 @@
 ---
-title: Nuevo Post
+title: Ejemplo de Post
 date: 2016-09-30 09:38:00 -04:00
 layout: post
 ---
