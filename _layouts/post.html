@@ -1,30 +1,36 @@
----
-layout: default
----
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-<main class="content" role="main">
-    <article class="post single-post" itemscope itemtype="http://schema.org/BlogPosting">
-        <header class="post-header short-diver">
-            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-            <section class="post-meta">
-                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-                on
-                {% for tag in page.tags limit:5 %}
-                <span>{{ tag }}</span>
-                {% endfor %}
-            </section>
-        </header>
+{% include head.html %}
 
-        <section class="post-content short-diver" itemprop="articleBody">
-            {{content}}
-        </section>
+<body>
 
-        <footer class="post-footer">
-            {% include authorinfo.html param=page.author %}
-        </footer>
+    {% include header.html %} 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
 
-    </article>
-</main>
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+		</header>
+		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		<p>{{ content }}</p>
+	</div>
+</section>
 
-{% include photoswipe.html %}
-{% include post_scripts.html %}
+</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

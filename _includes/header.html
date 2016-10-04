@@ -1,28 +1,30 @@
-{% if page.cover %}
-{% assign cover = page.cover %}
-{% elsif site.cover %}
-{% assign cover = site.cover %}
-{% endif %}
-<header class="main-header detail-page image-bg {% if cover %} has-cover" style="background-image: url({{ cover | prepend: site.github.url | prepend: site.baseurl}})" {% else %} no-cover" {% endif %}>
-    <h1 class="page-title"><a href="{{ site.github.url}}/" title="{{ site.title }}">{{ site.title }}</a></h1>
-    <h2 class="page-description">{{ site.subtitle }}</h2>
-    <div class="nav">
-        <ul>
-            <li><a class="page-link" href="{{ site.github.url | prepend: site.baseurl}}/" title="Home">Home</a></li>
+<!-- Wrapper -->
+<div id="wrapper">
 
-            {% assign pages = site.pages | sort:"weight"  %}
-            {% for my_page in pages %}
-
-            {% if my_page.menutitle %}
-            {% assign title = my_page.menutitle %}
-            {% elsif site.title %}
-            {% assign title = my_page.title %}
-            {% endif %}
-
-            {% if title and my_page.visible != false %}
-            <li><a class="page-link" href="{{ my_page.url | prepend: site.github.url | prepend: site.baseurl}}" title="{{ title }}">{{ title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
+<!-- Header -->
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ site.url }}{{ site.baseurl }}" class="logo"><strong>{{ site.title-bold }}</strong> <span>{{ site.title-normal }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
 </header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        {% for page in site.pages %}
+		    {% if page.layout == "home" %}
+		        <li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		{% for page in site.pages %}
+		    {% if page.layout != "home" %}
+		        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav>
