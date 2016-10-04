@@ -1,11 +1,11 @@
 ---
 title: Home
-layout: home
-landing-title: Hi, my name is Forty
+landing-title: Hola! Bienvenidos al demo de Aguara
 description: 
 image: 
 author: 
 nav-menu: 
+layout: home
 ---
 
 <!-- Banner -->
