@@ -1,5 +1,5 @@
 ---
-title: Aguara Demo
+title: jekyllDecent
 timezone: UTC
 collections:
   posts:
@@ -8,19 +8,20 @@ collections:
   uploads:
     title: Uploads
     output: true
-title-bold: Demo
-title-normal: por Aguara
-email: info@aguara.io
-description: 'Tema responsive de demostración '
-baseurl: 
-url: 
+title-bold: Forty
+title-normal: by HTML5 UP
+email: youremailaddress@gmail.com
+description: A responsive site template designed by HTML5 Up<br /> and released under
+  the Creative Commons.
+baseurl: "/forty-jekyll-theme"
+url: https://andrewbanchich.gitlab.io
 author: 
-street_address: Roque Centurion Miranda
-city: Asuncion
-state: 
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
 zip_code: 55555
-country: Paraguay
-phone: "(0981)419228"
+country: United States of America
+phone: "(716) 555-5555"
 gems:
 - jekyll-sitemap
 - jekyll-seo-tag
@@ -31,19 +32,19 @@ tiles-count: 6
 500px_url: 
 facebook_url: 
 github_url: 
-gitlab_url: 
-googleplus_url: https://plus.google.com/u/0/109498539741249689074
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
 instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/mart%C3%ADn-cubilla-451962122
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
 pinterest_url: 
 slack_url: 
-twitter_url: https://twitter.com/martincubilla
+twitter_url: https://twitter.com/andrewbanchich
 markdown: kramdown
 twitter:
-  username: martincubilla
+  username: andrewbanchich
 facebook:
   app_id: 
   publisher: 
   admins: 
-logo: "/uploads/2-19d3bf.jpg"
+logo: 
 google_site_verification: 
