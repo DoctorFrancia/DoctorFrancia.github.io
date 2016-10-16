@@ -77,27 +77,6 @@ rabbit.data.layerStore.addLayerFromHtml('<div xmlns:xsi="http://www.w3.org/2001/
 				);\
 			});\
 		</script></div>\
-         <div id="__containerId__-page107298354-layer-image51982196" style="position: absolute; left: 575px; top: 199px; width: 223px; height: 148px" data-interactive-element-type="default.image" class="image pidoco-clickable-element stencil mobile-interaction-potential-trigger " data-stencil-id="image51982196" data-review-reference-id="image51982196">\
-            <div class="stencil-wrapper" style="width: 223px; height: 148px">\
-               <div xmlns:pidoco="http://www.pidoco.com/util" title="">\
-                  <svg:svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" class="image-cropper" style="height: 148px;width:223px;" width="223" height="148" viewBox="0 0 223 148">\
-                     <svg:g width="223" height="148">\
-                        <svg:svg x="0" y="0" width="223" height="148">\
-                           <svg:image width="251" height="201" xlink:href="../images/1.bp.blogspot.com-images%2B%25281%2529.jpg" preserveAspectRatio="none" transform="scale(0.8884462151394422,0.736318407960199) translate(-0,-0)  "></svg:image>\
-                        </svg:svg>\
-                     </svg:g>\
-                  </svg:svg>\
-               </div>\
-            </div>\
-            <div class="interactive-stencil-highlighter" style="width: 223px; height: 148px"></div><script xmlns:json="http://json.org/" type="text/javascript">\
-			$(document).ready(function(){\
-				rabbit.interaction.manager.registerInteraction(\'__containerId__-page107298354-layer-image51982196\', \'interaction274636998\', {"button":"left","id":"action698625759","numberOfFinger":"1","type":"click"},  \
-					[\
-						{"delay":"0","id":"reaction424195171","options":"withoutReloadOnly","target":"page550919592","transition":"fromBottom","type":"showPage"}\
-					]\
-				);\
-			});\
-		</script></div>\
          <div id="__containerId__-page107298354-layer-image18057167" style="position: absolute; left: 930px; top: 200px; width: 225px; height: 150px" data-interactive-element-type="default.image" class="image stencil mobile-interaction-potential-trigger " data-stencil-id="image18057167" data-review-reference-id="image18057167">\
             <div class="stencil-wrapper" style="width: 225px; height: 150px">\
                <div xmlns:pidoco="http://www.pidoco.com/util" title="">\
@@ -294,6 +273,19 @@ rabbit.data.layerStore.addLayerFromHtml('<div xmlns:xsi="http://www.w3.org/2001/
 				);\
 			});\
 		</script></div>\
+         <div id="__containerId__-page107298354-layer-image418365781" style="position: absolute; left: 545px; top: 205px; width: 219px; height: 145px" data-interactive-element-type="default.image" class="image stencil mobile-interaction-potential-trigger " data-stencil-id="image418365781" data-review-reference-id="image418365781">\
+            <div class="stencil-wrapper" style="width: 219px; height: 145px">\
+               <div xmlns:pidoco="http://www.pidoco.com/util" title="">\
+                  <svg:svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" class="image-cropper" style="height: 145px;width:219px;" width="219" height="145" viewBox="0 0 219 145">\
+                     <svg:g width="219" height="145">\
+                        <svg:svg x="0" y="0" width="219" height="145">\
+                           <svg:image width="251" height="201" xlink:href="../repoimages/557705.jpg" preserveAspectRatio="none" transform="scale(0.8725099601593626,0.7213930348258707) translate(-0,-0)  "></svg:image>\
+                        </svg:svg>\
+                     </svg:g>\
+                  </svg:svg>\
+               </div>\
+            </div>\
+         </div>\
       </div>\
    </div>\
    <div id="styles">\

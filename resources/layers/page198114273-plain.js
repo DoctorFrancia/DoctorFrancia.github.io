@@ -33,11 +33,19 @@ rabbit.data.layerStore.addLayerFromHtml('<div xmlns:xsi="http://www.w3.org/2001/
                <div title=""><input id="__containerId__-page198114273-layer-textinput404652350input" value="" style="width:148px;height:28px;padding: 0px;border-width:1px;" type="text" /></div>\
             </div>\
          </div>\
-         <div id="__containerId__-page198114273-layer-button22161853" style="position: absolute; left: 195px; top: 230px; width: 60px; height: 30px" data-interactive-element-type="default.button" class="button stencil mobile-interaction-potential-trigger " data-stencil-id="button22161853" data-review-reference-id="button22161853">\
+         <div id="__containerId__-page198114273-layer-button22161853" style="position: absolute; left: 195px; top: 230px; width: 60px; height: 30px" data-interactive-element-type="default.button" class="button pidoco-clickable-element stencil mobile-interaction-potential-trigger " data-stencil-id="button22161853" data-review-reference-id="button22161853">\
             <div class="stencil-wrapper" style="width: 60px; height: 30px">\
                <div xmlns:helper="java:it.rapidrabb.editor.stencils.helpers.StencilHelper" title=""><button type="button" style="width:60px;height:30px;font-size:1em;background-color:#d9d9d9;padding-left: 0px; padding-right: 0px;" xml:space="preserve" title="">Login<br /></button></div>\
             </div>\
-         </div>\
+            <div class="interactive-stencil-highlighter" style="width: 60px; height: 30px"></div><script xmlns:json="http://json.org/" type="text/javascript">\
+			$(document).ready(function(){\
+				rabbit.interaction.manager.registerInteraction(\'__containerId__-page198114273-layer-button22161853\', \'interaction959083946\', {"button":"left","id":"action844988782","numberOfFinger":"1","type":"click"},  \
+					[\
+						{"delay":"0","id":"reaction272631314","options":"withoutReloadOnly","target":"page107298354","transition":"none","type":"showPage"}\
+					]\
+				);\
+			});\
+		</script></div>\
          <div id="__containerId__-page198114273-layer-icon668969805" style="position: absolute; left: 150px; top: 305px; width: 32px; height: 32px" data-interactive-element-type="fonticon.icon" class="icon stencil mobile-interaction-potential-trigger " data-stencil-id="icon668969805" data-review-reference-id="icon668969805">\
             <div class="stencil-wrapper" style="width: 32px; height: 32px">\
                <div xmlns:pidoco="http://www.pidoco.com/util" style="width:32px;height:32px;" title="">\

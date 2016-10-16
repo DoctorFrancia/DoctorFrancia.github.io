@@ -237,15 +237,6 @@ rabbit.data.layerStore.addLayerFromHtml('<div xmlns:xsi="http://www.w3.org/2001/
                </div>\
             </div>\
          </div>\
-         <div id="__containerId__-page62176765-layer-920681796" style="position: absolute; left: 590px; top: 490px; width: 53px; height: 53px" data-interactive-element-type="fonticon.icon" class="icon stencil mobile-interaction-potential-trigger " data-stencil-id="920681796" data-review-reference-id="920681796">\
-            <div class="stencil-wrapper" style="width: 53px; height: 53px">\
-               <div xmlns:pidoco="http://www.pidoco.com/util" style="width:53px;height:53px;" title="">\
-                  <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" class="fill-black">\
-                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-glyph-e388"></use>\
-                  </svg>\
-               </div>\
-            </div>\
-         </div>\
          <div id="__containerId__-page62176765-layer-91755615" style="position: absolute; left: 968px; top: 495px; width: 53px; height: 53px" data-interactive-element-type="fonticon.icon" class="icon stencil mobile-interaction-potential-trigger " data-stencil-id="91755615" data-review-reference-id="91755615">\
             <div class="stencil-wrapper" style="width: 53px; height: 53px">\
                <div xmlns:pidoco="http://www.pidoco.com/util" style="width:53px;height:53px;" title="">\
@@ -426,6 +417,19 @@ rabbit.data.layerStore.addLayerFromHtml('<div xmlns:xsi="http://www.w3.org/2001/
          <div id="__containerId__-page62176765-layer-text305347526" style="position: absolute; left: 985px; top: 290px; width: 114px; height: 17px" data-interactive-element-type="default.text2" class="text2 stencil mobile-interaction-potential-trigger " data-stencil-id="text305347526" data-review-reference-id="text305347526">\
             <div class="stencil-wrapper" style="width: 114px; height: 17px">\
                <div title=""><span class="default-text2-container-wrapper" title=""><span class="default-text2-container" data-child-type="default.text2"><p class="none" style="font-size: 14px;">Samsung Note 7 </p></span></span></div>\
+            </div>\
+         </div>\
+         <div id="__containerId__-page62176765-layer-image134271395" style="position: absolute; left: 575px; top: 495px; width: 65px; height: 47px" data-interactive-element-type="default.image" class="image stencil mobile-interaction-potential-trigger " data-stencil-id="image134271395" data-review-reference-id="image134271395">\
+            <div class="stencil-wrapper" style="width: 65px; height: 47px">\
+               <div xmlns:pidoco="http://www.pidoco.com/util" title="">\
+                  <svg:svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" class="image-cropper" style="height: 47px;width:65px;" width="65" height="47" viewBox="0 0 65 47">\
+                     <svg:g width="65" height="47">\
+                        <svg:svg x="0" y="0" width="65" height="47">\
+                           <svg:image width="256" height="256" xlink:href="../images/upload.wikimedia.org-Amazon-icon.png" preserveAspectRatio="none" transform="scale(0.25390625,0.18359375) translate(-0,-0)  "></svg:image>\
+                        </svg:svg>\
+                     </svg:g>\
+                  </svg:svg>\
+               </div>\
             </div>\
          </div>\
       </div>\
