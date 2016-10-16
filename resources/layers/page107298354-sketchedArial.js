@@ -286,6 +286,19 @@ rabbit.data.layerStore.addLayerFromHtml('<div xmlns:xsi="http://www.w3.org/2001/
                </div>\
             </div>\
          </div>\
+         <div id="__containerId__-page107298354-layer-text837554977" style="position: absolute; left: 1225px; top: 625px; width: 112px; height: 17px" data-interactive-element-type="default.text2" class="text2 pidoco-clickable-element stencil mobile-interaction-potential-trigger " data-stencil-id="text837554977" data-review-reference-id="text837554977">\
+            <div class="stencil-wrapper" style="width: 112px; height: 17px">\
+               <div title=""><span class="default-text2-container-wrapper" title=""><span class="default-text2-container" data-child-type="default.link2"><p style="font-size: 14px;"><span class="underline">Ayudá al proyecto</span></p></span></span></div>\
+            </div>\
+            <div class="interactive-stencil-highlighter" style="width: 112px; height: 17px"></div><script xmlns:json="http://json.org/" type="text/javascript">\
+			$(document).ready(function(){\
+				rabbit.interaction.manager.registerInteraction(\'__containerId__-page107298354-layer-text837554977\', \'interaction431502158\', {"button":"left","id":"action151846853","numberOfFinger":"1","type":"click"},  \
+					[\
+						{"delay":"0","id":"reaction340086895","options":"withoutReloadOnly","target":"page842134178","transition":"none","type":"showPage"}\
+					]\
+				);\
+			});\
+		</script></div>\
       </div>\
    </div>\
    <div id="styles">\
